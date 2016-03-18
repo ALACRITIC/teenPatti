@@ -1,0 +1,49 @@
+body{
+	background: -moz-linear-gradient(left,  #FFFFFF, #ECE9E6);
+  }
+
+.navigation{
+	margin-left: -1%;
+	margin-top: 1%;
+}
+
+a{
+	text-decoration: none;
+}
+
+	.glyphicon{
+	font-size: 20px;
+}
+
+
+.navbar-right{
+	margin-left: -40px;
+}
+
+.navbar-custom{
+		background-color: #E03C31;
+}
+
+.active>a {
+	outline: none;
+
+}
+
+
+
+.jumbotron{
+	margin-top: -40px;
+}
+.navbar-brand{
+	font-family: 'Damion', cursive;
+	color: black;
+	font-size: 20px;
+}
+
+.icon-dp{
+	background-image: url("../img/dp.png");
+	background-position: center center;
+	height: 24px;
+	width: 24px;
+
+}
