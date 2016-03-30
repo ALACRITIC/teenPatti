@@ -11,9 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'teenPattiController@index');
+
+Route::post('post_to_me','teenPattiController@create_players');
+
+Route::post('game_view','teenPattiController@game_view');
 
 /*
 |--------------------------------------------------------------------------

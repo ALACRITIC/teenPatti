@@ -1,49 +1,23 @@
 body{
-	background: -moz-linear-gradient(left,  #FFFFFF, #ECE9E6);
-  }
-
-.navigation{
-	margin-left: -1%;
-	margin-top: 1%;
+  background-color: #F3F2F2; 
 }
-
-a{
-	text-decoration: none;
-}
-
-	.glyphicon{
-	font-size: 20px;
-}
-
-
-.navbar-right{
-	margin-left: -40px;
-}
-
-.navbar-custom{
-		background-color: #E03C31;
-}
-
-.active>a {
-	outline: none;
+.container-fluid .numberofplayers .go{
+  float:right;
 
 }
 
-
-
-.jumbotron{
-	margin-top: -40px;
-}
-.navbar-brand{
-	font-family: 'Damion', cursive;
-	color: black;
-	font-size: 20px;
+.container-fluid .numberofplayers{
+  margin-left: 450px;
+  margin-top:200px;
+  
 }
 
-.icon-dp{
-	background-image: url("../img/dp.png");
-	background-position: center center;
-	height: 24px;
-	width: 24px;
+.container-fluid .nameofplayers{
+  margin-top:60px;
+  margin-left:450px;
+}
 
+.container-fluid .nameofplayers .go{
+  float:right;
+  margin-top: 10px;
 }
